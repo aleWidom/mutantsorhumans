@@ -18,6 +18,6 @@ Follow these steps to install and run the project:
   POST: http://mutantsorhumans.us-east-1.elasticbeanstalk.com/mutant
   -Submit a DNA sequence to check if it's mutant or human.
 
-## Deployment to AWS
+## Deployment to  AWS
 
 The project is deployed to Elastic Beanstalk
