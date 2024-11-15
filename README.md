@@ -12,12 +12,13 @@ Follow these steps to install and run the project:
 3. Build the project using Maven: `mvn clean install`
 4. Run the project: `mvn spring-boot:run`
 5. Test the API Rest using Postman or another application:
-   GET: http://mutantsorhumans.us-east-1.elasticbeanstalk.com/stats
-  -Returns stats on the number of mutants and humans.
 
-  POST: http://mutantsorhumans.us-east-1.elasticbeanstalk.com/mutant
-  -Submit a DNA sequence to check if it's mutant or human.
+GET: http://mutantsorhumans.us-east-1.elasticbeanstalk.com/stats
+-Returns stats on the number of mutants and humans.
 
-## Deployment to  AWS
+POST: http://mutantsorhumans.us-east-1.elasticbeanstalk.com/mutant
+-Submit a DNA sequence to check if it's mutant or human.
+
+## Deployment to AWS
 
 The project is deployed to Elastic Beanstalk
